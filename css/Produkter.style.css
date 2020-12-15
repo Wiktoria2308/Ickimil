@@ -1,0 +1,83 @@
+header {
+    position: relative;
+    font-family: 'Lato';
+    height: 75vh;
+    background-color: lightgray;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .box{
+    padding-bottom: 20px;
+  }
+
+.produkter{
+  padding-top: 50px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+  .korg{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cream{
+    margin-bottom: 0%;
+    
+  }
+  .star{
+   color: white;
+  margin-top: 0%;
+  
+    }
+  .star:hover{
+    color: yellow;
+  }
+ .opis{
+   margin-top: 0%;
+   text-align: center;
+   align-items: center;
+ }
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }

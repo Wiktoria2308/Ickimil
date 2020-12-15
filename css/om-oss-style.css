@@ -1,0 +1,25 @@
+
+.om-oss-img{
+    
+    border-radius: 10px 10px; 
+}
+.om-oss
+{
+    border-radius: 10px 10px;
+    padding: 30px;
+    line-height: 35px;
+  
+}
+
+.te-text{
+    margin-top: 15px;
+    text-align: justify;
+}
+.te-text-2{
+    margin-top: 75px;
+    text-align: justify;
+}
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

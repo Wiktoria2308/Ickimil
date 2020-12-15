@@ -1,0 +1,26 @@
+
+.jumbotron h1{
+    font-size: 70px;
+ } 
+  .jumbotron {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1497211419994-14ae40a3c7a3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=944d1afae58b39856cd6f1ab96d7c0ad&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    color: #ffffff;
+    min-height: 300px;
+  }
+
+.refund{
+    padding: 20px;
+}
+.refund ul li {
+    list-style-type: none;
+    padding-left:20px;
+}
+p {
+    font-size:15px;
+}

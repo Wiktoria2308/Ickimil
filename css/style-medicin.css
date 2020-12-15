@@ -1,0 +1,20 @@
+main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main p{
+    font-size: 80%;
+}
+
+.imagecontent{
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/Green-HD-Backgrounds-11-1.jpg);
+height: 200px;
+background-repeat: no-repeat;
+}
+
+.imagecontent h3{
+    color: white;
+    font-size: 250%;
+    font-weight: 200;
+}

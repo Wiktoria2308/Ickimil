@@ -1,0 +1,109 @@
+
+.showcase-text{
+    margin-bottom: 50px;
+}
+
+.showcase-heading-1{
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.showcase-btn{
+    margin: 0 5px;
+}
+
+
+.newsletter-heading{
+    padding: 5px 0;
+    color: #fff;
+}
+
+#newsletter form{
+    padding: 10px 0;
+}
+
+
+.boxes{
+    padding-top: 80px;
+}
+
+.box{
+    padding: 0 20px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 100%;
+}
+
+.box-icon{
+    font-size: 150%;
+}
+
+.about-ickimil-section{
+    padding-top: 30px;
+}
+
+.ickimil-heading{
+    font-size: 180%;
+    margin-bottom: 20px;
+}
+
+.ickimil-paragraph{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.carousel-caption button{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-caption button:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .showcase-heading-1{
+        font-size: 130%;
+    }ämnen ämnen 
+    .carousel-item .btn{
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .showcase-heading-1{
+        font-size: 300%;
+    }
+    .carousel-item .btn{
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .showcase-heading-1{
+        display:none;
+    }
+    .newsletter-input{
+        width: 100%;
+    }
+    .newsletter-btn{
+        width: 100%;
+    }
+    .newsletter-heading{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .showcase-btn{
+        display: none;
+    }
+}

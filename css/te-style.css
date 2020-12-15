@@ -1,0 +1,26 @@
+.bränsle
+{
+    border-radius: 10px 10px;
+    padding: 30px;
+  
+
+}
+.bränsle-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px;
+}
+.add-knapp{
+    margin: 15px;
+    border-radius: 10px 10px;
+    padding: 5px;
+    text-decoration: none;
+    width: 50%;
+}
+.add-knapp a{
+    color: black;
+    text-decoration: none;
+}
+.add-knapp a:hover{
+    color: rgb(83, 227, 188)
+}
