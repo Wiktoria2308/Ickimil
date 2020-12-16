@@ -1,2 +1,2 @@
 # Ickimil
-A group project with HTML, CSS, Bootstrap and JavaScript.
+A group project with HTML, CSS and Bootstrap.
